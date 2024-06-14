@@ -1,0 +1,16 @@
+{
+  "name": "catlang",
+  "version": "1.0.0",
+  "description": "CatLang is a simple programming language designed for fun and learning. It is inspired by the simplicity and expressiveness of cats, and aims to be intuitive and enjoyable to use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
