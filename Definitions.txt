@@ -1,0 +1,4 @@
+- the lexer defines the lexemes which are the most basic unit in the expression
+- the parser gives you its type (returns the type of the lexemes) is it an id, literals, operation, comments, etc
+- those types are called tokens 
+- AST: stands for Abstract Syntax Tree and can be referred as The Parser Tree 
