@@ -75,10 +75,10 @@ const isAlpha = (lexeme: string): boolean => {
   return lexeme.toUpperCase() !== lexeme.toLowerCase();
 };
 
-// to be tested
-const isInt = (lexeme: string): boolean => {
-  if (lexeme.length !== 1) return false;
-  return !isNaN(Number(lexeme));
+const isInt = (lexeme: any): boolean => {
+  return Boolean(
+    [true, true, true, true, true, true, true, true, true, true][lexeme]
+  );
 };
 
 const isSkippableLexeme = (lexeme: string): boolean => {
