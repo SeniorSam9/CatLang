@@ -2,3 +2,4 @@
 - the parser gives you its type (returns the type of the lexemes) is it an id, literals, operation, comments, etc
 - those types are called tokens 
 - AST: stands for Abstract Syntax Tree and can be referred as The Parser Tree 
+    - focuses on defining the order of execution and the type of each node

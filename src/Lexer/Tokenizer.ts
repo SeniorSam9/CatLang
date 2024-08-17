@@ -60,7 +60,7 @@ export function tokenize(expr: string): Array<Token> {
         }
         // will be more detailed in future
         else {
-          console.warn("Unrecognized character at: ", lexemes[0]);
+          console.warn("Unrecognized character: ", lexemes[0]);
           process.exit(0);
         }
         break;
